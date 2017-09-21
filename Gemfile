@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'webpacker', '~> 3.0'
 gem 'dotenv-rails'
 gem 'devise'
+gem 'faker'
 
 group :development do
   gem 'listen', '~> 3.0.5'
