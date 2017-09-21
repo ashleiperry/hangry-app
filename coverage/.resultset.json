@@ -1,16 +1,30 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/controllers/static_pages_controller_spec.rb": [
+      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/features/sign_in_spec.rb": [
         1,
         null,
         1,
+        null,
+        null,
+        null,
         null,
         1,
         1,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
+        null,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         null
@@ -558,6 +572,7 @@
         1,
         1,
         null,
+        null,
         null
       ],
       "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/models/user.rb": [
@@ -589,139 +604,8 @@
       "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/helpers/users_helper.rb": [
         1,
         null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/controllers/static_pages_controller.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/controllers/users_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/controllers/users_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/features/sign_up_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/helpers/static_pages_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/helpers/user_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/helpers/users_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/models/user_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null
-      ],
-      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/views/static_pages/home.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
       ]
     },
-    "timestamp": 1506011814
+    "timestamp": 1506029366
   }
 }
