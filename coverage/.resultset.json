@@ -1,7 +1,11 @@
 {
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
       "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/features/sign_in_spec.rb": [
+=======
+      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/spec/features/sign_up_spec.rb": [
+>>>>>>> master
         1,
         null,
         1,
@@ -9,6 +13,7 @@
         null,
         null,
         null,
+<<<<<<< HEAD
         1,
         1,
         0,
@@ -19,8 +24,48 @@
         0,
         0,
         0,
+=======
+        null,
+        1,
+        1,
+        1,
+>>>>>>> master
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
         null,
         null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
         null,
         1,
         1,
@@ -604,8 +649,33 @@
       "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/helpers/users_helper.rb": [
         1,
         null
+<<<<<<< HEAD
       ]
     },
     "timestamp": 1506029366
+=======
+      ],
+      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/controllers/static_pages_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ashleiperry/Desktop/Programs/hangry_app/hangry_app/app/controllers/application_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        6,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1506026443
+>>>>>>> master
   }
 }
