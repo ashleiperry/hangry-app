@@ -23,7 +23,7 @@ feature 'sign up', %(
     expect(page).to have_content("You're in!")
     expect(page).to have_content("Sign Out")
   end
-  
+
   scenario 'required information is not supplied' do
     visit new_user_registration_path
     click_button 'Sign Up'
