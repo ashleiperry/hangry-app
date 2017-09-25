@@ -10,6 +10,7 @@ gem 'webpacker', '~> 3.0'
 gem 'dotenv-rails'
 gem 'devise'
 gem 'faker'
+gem 'google-places'
 
 group :development do
   gem 'listen', '~> 3.0.5'
