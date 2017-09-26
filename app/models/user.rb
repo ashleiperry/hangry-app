@@ -1,6 +1,6 @@
 class User < ApplicationRecord
-  has_many :user_preferences
-  has_many :restaurants, through: :user_preferences
+  has_many :orders
+  has_many :restaurants, through: :orders
   validates_presence_of :first_name
   validates_presence_of :last_name
   validates_presence_of :zip_code
