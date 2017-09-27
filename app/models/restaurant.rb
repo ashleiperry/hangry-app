@@ -9,5 +9,4 @@ class Restaurant < ApplicationRecord
   validates :zip_code, presence: true
   validates :telephone_number, presence: true
   validates :hours_of_operation, presence: true
-
 end

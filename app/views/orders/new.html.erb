@@ -1,0 +1,75 @@
+<h1>New Order</h1>
+
+<div class="form-box">
+  <fieldset><legend>New Jawn</legend>
+    <%= form_for @order do |f| %>
+      <% if @order.errors.any? %>
+        <div id="error_explanation">
+
+          <ul>
+          <% @order.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="field">
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+      </div>
+
+
+      <div class="field">
+        <%= f.label :description %>
+        <%= f.text_field :description %>
+      </div>
+
+      <div class="field">
+        <%= f.label :url %>
+        <%= f.text_field :url %>
+      </div>
+      <br>
+
+
+      <div class="field">
+        <%= f.label :troll %>
+        <%= f.number_field :troll, in: 1...6 %>
+      </div>
+
+      <div class="field">
+        <%= f.label :funny %>
+        <%= f.number_field :funny, in: 1...6 %>
+      </div>
+
+      <div class="field">
+        <%= f.label :story %>
+        <%= f.number_field :story, in: 1...6 %>
+      </div>
+
+      <div class="field">
+        <%= f.label :helpful %>
+        <%= f.number_field :helpful, in: 1...6 %>
+      </div>
+
+      <%= f.submit "Add New Order" %>
+    <% end %>
+  </fieldset>
+</div>
+
+
+<%= form_for(order) do |f| %>
+  <div class="field">
+    <%= f.label :author %><br />
+    <%= f.text_field :author %>
+  </div>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
