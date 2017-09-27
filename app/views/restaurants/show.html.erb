@@ -1,0 +1,13 @@
+<h1> <%= @restaurant.name %> </h1> <br />
+<%= @restaurant.address %> <br />
+<%= @restaurant.city %>, <%= @restaurant.state %> <%= @restaurant.zip_code %>
+<br />
+<%= @restaurant.telephone_number %> <br />
+<%= @restaurant.hours_of_operation %> <br />
+
+<br />
+
+<h3>Menu</h3>
+<% @items.each do |item| %>
+  <li> <%= item.name %> </li>
+<% end %>
