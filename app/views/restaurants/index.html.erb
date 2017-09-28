@@ -1,9 +1,6 @@
 <h1> Restaurants </h1>
 
 <% @restaurants.each do |restaurant| %>
-<li>Name: <%= link_to restaurant.name, restaurant_path(restaurant) %></li> <br />
-Address: <%= restaurant.address %> <br />
-  <%= restaurant.city %> , <%= restaurant.state %> <%= restaurant.zip_code %> <br />
-  <br />
-
+<li> <%= restaurant.name %>
+  <%= link_to "Create New Order", new_restaurant_order_path(restaurant) %></li> <br />
 <% end %>

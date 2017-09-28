@@ -31,6 +31,6 @@
 #   15.times do
 #     Item.create!(
 #       name: Faker::Food.unique.dish,
-#       restaurant_id: 9
+#       restaurant_id: 11
 #     )
 # end

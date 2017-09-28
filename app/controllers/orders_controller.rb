@@ -1,7 +1,8 @@
 class OrdersController < ApplicationController
-  before_action :check_logged_in, only: [:new, :create, :edit, :update, :destroy]
+  # skip_before_action :verify_authenticity_
+  before_action :authenticate_user!
   def index
-    @orders = Order.all
+    @orders = Order.where(user_id: current_user)
   end
 
   def create
