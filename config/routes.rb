@@ -4,9 +4,12 @@ Rails.application.routes.draw do
 
   resources :orders, except: [:new, :create]
   resources :restaurants
+
   resources :restaurants, only: [:index, :show] do
-    resources :orders, only: [:index, :new, :create]
+    resources :orders, only: [:index, :new, :create, :show]
   end
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :orders, only: [:show] do
+    resources :items, only: [:create]
+  end
 end

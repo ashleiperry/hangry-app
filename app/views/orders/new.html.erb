@@ -1,12 +1,29 @@
-<% binding.pry %>
+<%= link_to "Home", root_path %> <br />
+<%= link_to "Back", restaurants_path %> <br />
 <h1>New Order for <%= @restaurant.name %></h1>
 
 <%= form_for [@restaurant, @order] do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :order.name %>
 
-  <%= f.label :description %>
-  <%= f.text_field :order.description %>
-
-  <%= f.submit %>
-<% end %>
+      <% if @order.errors.any? %>
+        <div id="error_explanation">
+          <ul>
+          <% @order.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+      <div class="form-box">
+        <fieldset><legend>Add an Order</legend>
+          <div class="field">
+            <%= f.label :name, "Order Name" %>
+            <%= f.text_field :name %>
+          </div>
+          <div class="field">
+            <%= f.label :description, "Order Description" %>
+            <%= f.text_field :description %>
+          </div>
+          <%= f.submit "Create New Order" %>
+    </fieldset>
+  </div>
+  <% end %>
