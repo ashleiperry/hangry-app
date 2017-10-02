@@ -11,6 +11,7 @@ gem 'dotenv-rails'
 gem 'devise'
 gem 'faker'
 gem 'google-places'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 group :development do
   gem 'listen', '~> 3.0.5'
