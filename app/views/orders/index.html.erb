@@ -2,7 +2,7 @@
 <h1>My Orders</h1>
 
 <% @orders.each do |order| %>
-<p>Order Name: <%= link_to order.name, order_path(order) %></p>
+<p>Order Name: <button class="button"  style="vertical-align:middle"><span><%= link_to order.name, order_path(order) %></span></button></p>
 <p>Description: <%= order.description %></p>
 
 <% end %>
