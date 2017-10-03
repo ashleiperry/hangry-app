@@ -3,5 +3,6 @@
 
 <% @restaurants.each do |restaurant| %>
 <li> <%= restaurant.name %>
-  <%= link_to "Create New Order", new_restaurant_order_path(restaurant) %></li> <br />
+  <button class="button"  style="vertical-align:middle"><span>
+  <%= link_to "Create New Order", new_restaurant_order_path(restaurant) %></li></span></button> <br />
 <% end %>
