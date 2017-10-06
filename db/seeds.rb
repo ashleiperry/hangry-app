@@ -34,3 +34,94 @@
 #       restaurant_id: 11
 #     )
 # end
+
+Restaurant.create!(
+  name: "McDonalds",
+  address: "1706 Walnut Street",
+  city: "Philadelphia",
+  state: "PA",
+  zip_code: "19103",
+  telephone_number: "(215) 545-9574",
+  hours_of_operation:"12am-11pm"
+)
+
+Item.create!(
+  name: "Fruit N' Yogurt Parfait" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Egg McMuffin" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Egg White Delight McMuffin" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Sausage McMuffin" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Sausage McMuffin with Egg" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Bacon, Egg, & Cheese Biscuit" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Sausage Biscuit" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Sausage Biscuit with Egg" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Steak, Egg & Cheese Biscuit" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Bacon, Egg, & Cheese McGriddles" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Sausage McGriddles" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Sausage, Egg, & Cheese McGriddles" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Bacon, Egg, & Cheese Bagel" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Big Breakfast" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Big Breakfast with Hotcakes" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Hotcakes" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Hotcakes and Sausage" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Sausage Burrito" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Hash Browns" ,
+  restaurant_id: 1
+)
+Item.create!(
+  name: "Fruit & Maple Oatmeal" ,
+  restaurant_id: 1
+)
